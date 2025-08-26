@@ -1,21 +1,25 @@
+
 div.navbar{
+    margin: 0%;
     background-color: black;
     color: white;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    padding: 12px;
-    border-style: solid;
-    border width: 10px;
-    border-color: white;
-    border-right: 0px; border-left: 0px;
+    margin-top: 0.1%;
+    margin-bottom: 0.1%;
+    padding: 10px;
+    font-weight: bold;
+    font-family: Arial, Helvetica, sans-serif;
+}
+body{
+    margin: 0%;
 }
 div.navbar-right{
     display: flex;
     align-items: baseline;
     flex-direction: row-reverse; 
     gap: 30px;
-    
 
 }
 div.navbar-right a{
@@ -30,16 +34,17 @@ div.navbar a:hover{
 }
 
 div.intro{
-border-color: white;
-border-style: solid;
-border-width: 5px;
-border-top: 0px; border-left: 0px; border-right: 0px; 
-border-bottom: ;
 display: flex;
 align-items: center;
 justify-content: space-between;
 
 
+}
+.intro-left{
+    background-color: black;
+    width:65%;
+    display: flex;
+    justify-content: center;
 }
 
 div.intro-left img{
@@ -47,6 +52,8 @@ div.intro-left img{
     border-color: black;
     border-width: 90px;
     border-radius: 100%;
+    height: 414px;
+
     
     
     
@@ -54,13 +61,9 @@ div.intro-left img{
 }
 div.intro-right{
     color: rgb(0, 0, 0);
-    background-color: white;
     text-align: center;
-    width: 45%;
-    padding-top: 16%; padding-bottom: 16%;
-    border-style: solid;
-    border-color: white;
-    border-width: 100px; border-bottom: 0px; border-top: 0px;
+    width: 60%
+;
 
     
 }
@@ -71,6 +74,3 @@ div.intro-right h1{
 
 
 
-body{
-    background-color: rgb(0, 0, 0);
-}
